@@ -19,7 +19,12 @@ bool basic_demo(int i){
     return status;
 }
 
+void display()
+{
+    printf("Hello World");
+}
+
 int main() {
-    printf("Hello world");
+   
     basic_demo(10);
 }
